@@ -134,3 +134,12 @@ figcaption {
 	border:10px solid #6CC551;
 	background-color:#9FFCDF;
 }
+.wrapper{
+	position:relative;
+	width: 1000px;
+	margin:100px auto;
+	z-index:1;
+	background:#e8e1d9;
+	padding: 50px;
+	box-shadow: 0 10px 30px #a8a096;
+}
