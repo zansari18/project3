@@ -1,5 +1,6 @@
 body {
-	background-image:url("bckgrnd.jpg");
+	background-image:url("media/bckgrnd.jpg");
+	background-size:cover;
 	background-color:white;
 }
 #directory {
@@ -91,7 +92,7 @@ ul{
 }
 
 	
-#image_borders {
+img{
 	border: 10px solid #8EE4AF;
 	border-radius:10%;
 	padding:5px;
@@ -137,6 +138,7 @@ figcaption {
 .wrapper{
 	position:relative;
 	width: 80%;
+	height:100%;
 	margin:auto;
 	background:#e8e1d9;
 	padding: 50px;
