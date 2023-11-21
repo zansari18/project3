@@ -136,9 +136,8 @@ figcaption {
 }
 .wrapper{
 	position:relative;
-	width: 1000px;
-	margin:100px auto;
-	z-index:1;
+	width: 80%;
+	margin:auto;
 	background:#e8e1d9;
 	padding: 50px;
 	box-shadow: 0 10px 30px #a8a096;
