@@ -100,6 +100,7 @@ img{
 	clear:left;
 	background-color:#8EE4AF;
 }
+
 figcaption {
 	
 	border:10px solid #8EE4AF;
@@ -139,8 +140,10 @@ figcaption {
 	position:relative;
 	width: 80%;
 	height:100%;
+	z-index:1;
 	margin:auto;
 	background:#e8e1d9;
 	padding: 50px;
 	box-shadow: 0 10px 30px #a8a096;
+	overflow:hidden; 	
 }
