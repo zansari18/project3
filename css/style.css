@@ -1,10 +1,9 @@
 body {
 	background-image:url("bckgrnd.jpg");
 	
-	
 }
 #directory {
-	background-color:#8EE4AF;
+	background-color:#f2f1f0;
 	overflow:hidden;
 }
 #directory ul{
@@ -28,7 +27,8 @@ body {
 	display:block;
 	text-decoration:none;
 	padding:15px 20px;
-	color:#EDF5E1;
+	color:#6b2a11;
+	
 }
 #directory ul li a:hover{
 	
