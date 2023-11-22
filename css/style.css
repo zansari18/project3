@@ -120,14 +120,14 @@ figcaption {
 }
 
 
-#music_desc {
+.music_desc {
 	clear:left;
 	
 }
-#music_desc ul{
+.music_desc ul{
 	list-style-type:none;
 }
-#music_desc a{
+.music_desc a{
 	
 	color:#695953;
 	text-decoration:none;
@@ -138,7 +138,7 @@ figcaption {
 	border:10px solid white;
 	border-radius:25%;
 }
-#music_desc a:hover {
+.music_desc a:hover {
 		
 	color:white;
 	text-decoration:none;
