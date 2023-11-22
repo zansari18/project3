@@ -56,7 +56,7 @@ h1{
 h2{
 	background-color:#9fa28e;
 	clear:left;
-	border:10px solid #379683;
+	border:10px solid #EDF5E1;
 	color:#e8e1d9;
 	font-size:200%;
 	border-radius:40%;
@@ -71,7 +71,7 @@ fieldset {
 	color:#EDF5E1;
 }
 ul{
-	text-decoration: none;
+	list-style-type: none;
 }
 ul li a{
 	float:left;
@@ -79,13 +79,15 @@ ul li a{
 	background-color:#f2f1f0;
 	color:#EDF5E1;
 	display:block;
+	text-decoration:none;
 }
 p {
 	
 	clear:left;
-	border:10px solid #5CDB95;
-	background-color: #5CDB95;
+	border:10px solid #9fa28e;
+	background-color: #9fa28e;
 	font-size:120%;
+	color:#EDF5E1;
 	
 }
 ul{
@@ -95,12 +97,12 @@ ul{
 
 	
 img{
-	border: 10px solid #8EE4AF;
+	border: 10px solid white;
 	border-radius:10%;
 	padding:5px;
 	
 	clear:left;
-	background-color:#8EE4AF;
+	background-color:white;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -122,15 +124,18 @@ figcaption {
 	clear:left;
 	
 }
+#music_desc ul{
+	list-style-type:none;
+}
 #music_desc a{
 	
-	color:#05386B;
+	color:#695953;
 	text-decoration:none;
-	list-style-type:none;
+	
 	margin:0;
 	padding:0;
-	background-color:#9FFCDF;
-	border:10px solid #8EE4AF;
+	background-color:#9fa28e;
+	border:10px solid white;
 	border-radius:25%;
 }
 #music_desc a:hover {
