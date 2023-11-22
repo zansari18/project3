@@ -113,7 +113,9 @@ figcaption {
 	border-radius:25%;
 	float:left;
 	padding:5px;
+	text-align:center;
 }
+
 
 #music_desc {
 	clear:left;
