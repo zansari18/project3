@@ -159,3 +159,12 @@ figcaption {
 	box-shadow: 0 10px 30px rgb(0,0,.1);
 	overflow:hidden; 	
 }
+#map {
+  position: relative;
+  top: 30px;
+  width: 50%;
+  height: 40%;
+  margin: 10px auto; 
+  border: solid #9fa28e 5px;
+  border-radius: 10px;
+}
