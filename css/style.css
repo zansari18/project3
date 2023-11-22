@@ -43,8 +43,8 @@ body {
 }
 
 h1{
-	color:#05386B;
-	background-color:#EDF5E1;
+	color:#e8e1d9;
+	background-color:#9fa28e;
 	font-size:220%;
 	border: 10px solid #EDF5E1;
 	border-radius:40%;
@@ -54,10 +54,10 @@ h1{
 }
 
 h2{
-	background-color:#379683;
+	background-color:#9fa28e;
 	clear:left;
 	border:10px solid #379683;
-	color:#05386B;
+	color:#e8e1d9;
 	font-size:200%;
 	border-radius:40%;
 	padding:5px;
@@ -151,6 +151,6 @@ figcaption {
 	margin:auto;
 	background:#e8e1d9;
 	padding: 50px;
-	box-shadow: 0 10px 30px #a8a096;
+	box-shadow: 0 10px 30px rgb(0,0,.1);
 	overflow:hidden; 	
 }
