@@ -17,5 +17,6 @@ funct initMap(){
 		center: { lat: 41.83505630493164, lng: -87.62705993652344 }
  })
 }
+initMap();
 
 
