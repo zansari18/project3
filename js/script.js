@@ -1,14 +1,7 @@
-function initMap() {
-  var myLatLng = { lat: 31.5883, lng: 74.3105 };
-  var map = new google.maps.Map(document.getElementById("map"), {
-    zoom: 18,
-    center: myLatLng,
-  });
-
-  new google.maps.Marker({
-    position: myLatLng,
-    map,
-    title: "Badshahi Mosque",
-  });
+function myMap() {
+	var mapProp = {
+		center:new google.maps.LatLng(51.508742,-0.120850),
+		zoom:5,
+	};
+	var map = new google.maps.Map(document.getElementById("map"),mapProp);
 }
-initMap();
