@@ -100,7 +100,6 @@ img{
 	border-radius:10%;
 	padding:5px;
 	clear:left;
-	background-color:white;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -109,9 +108,9 @@ img{
 
 figcaption {
 	
-	border:10px solid #8EE4AF;
+	border:10px solid #9fa28e;
 	clear:left;
-	background-color: #8EE4AF;	
+	background-color: #9fa28e;	
 	padding:5px;
 	text-align:center;
 	
