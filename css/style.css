@@ -1,5 +1,5 @@
 body {
-	background-image: url('../project3/media/bckgrnd.jpg');
+	background-image: url('media/bckgrnd.jpg');
 	background-size:cover;
 	background-color:#9fa28e;
 	text-align:center;
@@ -158,11 +158,10 @@ figcaption {
 	box-shadow: 0 10px 30px rgb(0,0,.1);
 	overflow:hidden; 	
 }
+
 #map {
-  
-  width: 100%;	
-  height: 800px;
-  margin: 10px auto; 
-  border: solid #9fa28e 5px;
-  border-radius: 10px;
+	width: 700px;
+	height: 500px;
+	background-color:#9fa28e;
+	margin: 30px auto;
 }
