@@ -1,6 +1,6 @@
 
 const apiKey= "AIzaSyCQjFnNaTN7eSIL8vwBImDpCNdcyoAnsVE";
-function init(){
+function initMap(){
 	
 	var el = document.getElementById('map');
 	var myLocation = new google.maps.LatLng(31.5883, 74.3105);
@@ -35,5 +35,5 @@ function init(){
 
 }
 
-google.maps.event.addDomListener(window, 'load', init);
+google.maps.event.addDomListener(window, 'load', initMap);
 
