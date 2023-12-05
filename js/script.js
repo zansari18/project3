@@ -1,22 +1,39 @@
-/* function initMap() {
-  
-  const position = {lat: 51.508742,lng: -0.120850};
-  const { Map } = await google.maps.importLibrary("maps");
-  const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
-  map = new Map(document.getElementById("map"), {
-    zoom: 4,
-    center: position,
-    mapId: "DEMO_MAP_ID",
-  });
-  initMap();
 
-*/
-funct initMap(){
-	var map = new google.maps.Map(document.getElementById('map'), {
-		zoom: 14,
-		center: { lat: 31.5883, lng: 74.3105 },
- });
+const apiKey= "AIzaSyCQjFnNaTN7eSIL8vwBImDpCNdcyoAnsVE";
+function init(){
+	
+	var el = document.getElementById('map');
+	var myLocation = new google.maps.LatLng(31.5883, 74.3105);
+	var const mapOptions = {
+		center: myLocation,
+		zoom: 18,
+		mapTypeId: google.maps.MapTypeId.SATELLITE,
+		mapTypeControlOptions: {
+			position: google.maps.ControlPosition.BOTTOM_CENTER
+		}
+	};
+
+	var myMap = new google.maps.Map(el, mapOptions);
+
+	var marker = new google.maps.Marker({
+		position: myLocation,
+		map: myMap,
+		animation: google.maps.Animation.BOUNCE,
+		icon: 'forgs.png'
+	});
+
+	var contentString = '<h1>Badshahi Mosque</h1><p>The Badshahi Mosque is a prayer space that dates back to the Mughal Empire. It is the second largest mosque in Pakistan. I used to go there with my parents when I was little.</p>';
+
+	var infowindow = new google.maps.InfoWindow({
+      content: contentString
+  	});
+
+	google.maps.event.addListener(marker, 'mouseover', function() {
+    	infowindow.open(myMap, marker);
+  	});
+
+
 }
-window.initMap = initMap;
 
+google.maps.event.addDomListener(window, 'load', init);
 
