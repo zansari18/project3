@@ -19,7 +19,7 @@ function initMap(){
 		position: myLocation,
 		map: myMap,
 		animation: google.maps.Animation.BOUNCE,
-		icon: 'js/forgs.png'
+		icon: 'js/frogs.png'
 	});
 
 	var contentString = '<h1>Badshahi Mosque</h1><p>The Badshahi Mosque is a prayer space that dates back to the Mughal Empire. It is the second largest mosque in Pakistan. I used to go there with my parents when I was little.</p>';

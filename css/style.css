@@ -9,7 +9,6 @@ body {
 	overflow:hidden;
 }
 #directory ul{
-	
 	list-style-type:none;
 	margin:0;
 	padding:0;
@@ -100,7 +99,6 @@ img{
 	border: 10px solid white;
 	border-radius:10%;
 	padding:5px;
-	
 	clear:left;
 	background-color:white;
 	display: block;
