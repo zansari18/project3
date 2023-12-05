@@ -96,7 +96,7 @@ ul{
 
 	
 img{
-	border: 10px solid white;
+	border: 10px solid #e8e1d9;
 	border-radius:10%;
 	padding:5px;
 	clear:left;
@@ -161,4 +161,12 @@ figcaption {
 	height: 500px;
 	background-color:#9fa28e;
 	margin: 30px auto;
+}
+#tiny_icons img{
+	width: 100px;
+	float:right;
+}
+#header_images img{
+	width: 100px;
+	float:left;
 }
