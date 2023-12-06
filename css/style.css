@@ -125,10 +125,9 @@ figcaption {
 .music_desc a{
 	
 	color:#695953;
-	text-decoration:none;
-	
-	margin:0;
-	padding:0;
+	text-decoration: none;
+	margin:10px;
+	padding:10px;
 	background-color:#9fa28e;
 	border:10px solid white;
 	border-radius:25%;
@@ -138,8 +137,8 @@ figcaption {
 	color:white;
 	text-decoration:none;
 	list-style-type:none;
-	margin:0;
-	padding:0;
+	margin:10px;
+	padding:10px;
 	border:10px solid #6CC551;
 	background-color:#9FFCDF;
 }
