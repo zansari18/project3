@@ -124,12 +124,12 @@ figcaption {
 }
 .music_desc a{
 	
-	color:#695953;
+	color:white;
 	text-decoration: none;
-	margin:10px;
-	padding:10px;
+	margin:8px;
+	padding:8px;
 	background-color:#9fa28e;
-	border:10px solid white;
+	border:8px solid white;
 	border-radius:25%;
 }
 .music_desc a:hover {
@@ -137,9 +137,9 @@ figcaption {
 	color:white;
 	text-decoration:none;
 	list-style-type:none;
-	margin:10px;
-	padding:10px;
-	border:10px solid #6CC551;
+	margin:8px;
+	padding:8px;
+	border:8px solid #6CC551;
 	background-color:#9FFCDF;
 }
 .wrapper{
