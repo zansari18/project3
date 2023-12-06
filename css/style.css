@@ -117,13 +117,15 @@ figcaption {
 
 .music_desc {
 	clear:left;
-	
 }
 .music_desc ul{
+	clear:left;
 	list-style-type:none;
+	text-align:center;
+	position:relative;
 }
 .music_desc a{
-	
+	clear:left;
 	color:white;
 	text-decoration: none;
 	margin:8px;
