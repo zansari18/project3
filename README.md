@@ -1,2 +1,2 @@
 # project3
-final website for semester
+personal website displaying linked spotify playlists, a map, resume, and about me 
